@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Jerk Chicken Dinner",
+    "description": "Jerk chicken made with our signature spices and sauce, on rice & peas and cabbage."
+  },
+  {
+    "name": "Fried Plantain",
+    "description": "Fried yellow sweet plantains. Vegetarian."
+  },
+  {
+    "name": "Oxtail Dinner",
+    "description": "Oxtails stewed in a blend of spices and herbs, carrots, beans, spinners (mini dumplings), on rice & peas and cabbage."
+  },
+  {
+    "name": "Curried Chicken Dinner",
+    "description": "Chicken simmered in our special curry blend, on rice & peas and cabbage. *dark meat"
+  },
+  {
+    "name": "Sorrel Bottled",
+    "description": "House blend of Jamaican (Hibiscus) Sorrel and fresh ginger. Still our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Jerk Sandwich",
+    "description": "Jerk chicken (boneless, skinless thigh) on our coco bread with lettuce and poppyseed dressing."
+  },
+  {
+    "name": "Jerk Drumettes Dinner",
+    "description": "Jerk chicken wings (7) made with our signature spices and sauce, on rice & peas and cabbage."
+  },
+  {
+    "name": "Rum Pound Cake",
+    "description": "A moist, dense cake glazed with our special rum sauce."
+  },
+  {
+    "name": "Curried Goat Dinnner",
+    "description": "Goat morsels simmered in our special curry blend, on rice & peas and cabbage."
+  },
+  {
+    "name": "Rice & Peas",
+    "description": "Red beans and rice cooked in coconut, herbs and spices, served with cabbage. Vegan"
+  },
+  {
+    "name": "Fruit Punch Bottled",
+    "description": "House blend of fresh fruits and juices. \nStill our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Fricasse Chicken (Brown Stew)  Dinner",
+    "description": "Chicken in our brown stew sauce with the complexity of savory and sweet, on rice & peas and cabbage."
+  },
+  {
+    "name": "D&G Kola Champagne",
+    "description": ""
+  },
+  {
+    "name": "D&G Ginger Beer",
+    "description": ""
+  },
+  {
+    "name": "Curried Shrimp Dinner",
+    "description": "Shrimp marinated in our Jamaican curry blend with onions, tomatoes, and green peppers, served with rice and peas and a side of cabbage"
+  },
+  {
+    "name": "Lemonade Bottled",
+    "description": "Refreshing strawberry (pink) lemonade.  Still our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Side of Oxtail",
+    "description": "Oxtails stewed in a blend of spices and herbs, carrots, beans, spinners (mini dumplings)."
+  },
+  {
+    "name": "Beef Patty",
+    "description": "Seasoned ground beef spiced with Jamaican seasoning inside a golden pastry turnover."
+  },
+  {
+    "name": "Coco Bread",
+    "description": "Freshly baked buttered roll. Serves 1"
+  },
+  {
+    "name": "Curry Chicken Patty",
+    "description": "Chicken thighs flavored with curry seasoning, are stewed and ground before filling our light and flaky turnover."
+  },
+  {
+    "name": "Jerk Chicken Patty",
+    "description": "Jerk chicken made with our signature sauce in a flaky turnover."
+  },
+  {
+    "name": "Spinach Patty",
+    "description": "Seasoned spinach in a flaky turnover. Vegan."
+  },
+  {
+    "name": "Vegetable Patty",
+    "description": "Carrots, peas, and corn in a flaky turnover.  Vegan"
+  },
+  {
+    "name": "Jerk Sandwich",
+    "description": "Jerk chicken (boneless, skinless thigh) on our coco bread with lettuce and poppyseed dressing."
+  },
+  {
+    "name": "Escoveitch Sandwich",
+    "description": "Breaded Haddock fish fillet on our coco bread with our escoveitch sauce (onions, peppers, allspice), and scotch bonnet pepper aioli."
+  },
+  {
+    "name": "Haddock Fish Sandwich",
+    "description": "Breaded Haddock fillet on our coco bread with lettuce, Swiss cheese, and our scotch bonnet aioli."
+  },
+  {
+    "name": "Jerk Chicken Dinner",
+    "description": "Jerk chicken made with our signature spices and sauce, on rice & peas and cabbage."
+  },
+  {
+    "name": "Jerk Drumettes Dinner",
+    "description": "Jerk chicken wings (7) made with our signature spices and sauce, on rice & peas and cabbage."
+  },
+  {
+    "name": "Jerk Drumettes: 7 piece",
+    "description": "Jerk chicken wings (7) made with our signature spices and sauce."
+  },
+  {
+    "name": "1 Dozen Jerk Drumettes: 12 piece",
+    "description": "Jerk chicken wings (12) made with our signature spices and sauce."
+  },
+  {
+    "name": "1/2 lb Jerk Chicken",
+    "description": "Jerk chicken made with our signature spices and sauce.*little less than 1/2 chicken"
+  },
+  {
+    "name": "1lb Jerk Chicken",
+    "description": "Jerk chicken made with our signature spices and sauce.*little more than 1/2 chicken"
+  },
+  {
+    "name": "Curried Chicken Dinner",
+    "description": "Chicken simmered in our special curry blend, on rice & peas and cabbage. *dark meat"
+  },
+  {
+    "name": "Curried Goat Dinnner",
+    "description": "Goat morsels simmered in our special curry blend, on rice & peas and cabbage."
+  },
+  {
+    "name": "Side of Curry Chicken",
+    "description": "Chicken simmered in our special curry blend. *dark meat"
+  },
+  {
+    "name": "Side Curry Goat",
+    "description": "Goat morsels simmered in our special curry blend."
+  },
+  {
+    "name": "Oxtail Dinner",
+    "description": "Oxtails stewed in a blend of spices and herbs, carrots, beans, spinners (mini dumplings), on rice & peas and cabbage."
+  },
+  {
+    "name": "Side of Oxtail",
+    "description": "Oxtails stewed in a blend of spices and herbs, carrots, beans, spinners (mini dumplings)."
+  },
+  {
+    "name": "Brown Stew Fish Dinner",
+    "description": "Whole red snapper fried and then stewed in tomato based sauce served with rice and peas & cabbage in a separate container"
+  },
+  {
+    "name": "Escoveitched - VINEGAR STYLE",
+    "description": "Traditional Jamaican style- whole red snapper fried and then marinated in a vinegar style gravy, served with rice and peas & cabbage in a separate container."
+  },
+  {
+    "name": "Vegetable Stew",
+    "description": "A hearty stew of carrots, potatoes, plantain, pumpkin, cabbage, mixed vegetables, kidney beans, chickpeas, and coconut milk with rice and peas and a side of cabbage. Vegan."
+  },
+  {
+    "name": "Curried Vegetables",
+    "description": "Garbanzo beans (chickpeas), eggplant, stewed tomatoes in our special curry blend, on rice & peas and cabbage. Vegan."
+  },
+  {
+    "name": "Curried Shrimp Dinner",
+    "description": "Shrimp marinated in our Jamaican curry blend with onions, tomatoes, and green peppers, served with rice and peas and a side of cabbage"
+  },
+  {
+    "name": "Side Of Curry Shrimp",
+    "description": "Shrimp marinated in our Jamaican curry blend with onions, tomatoes, and green peppers"
+  },
+  {
+    "name": "Steamed Snapper",
+    "description": "Whole red snapper cooked in light sauce with onions, bell peppers, and carrots, served with rice and peas & cabbage in a separate container."
+  },
+  {
+    "name": "(FISH ONLY) Escoveitched - VINEGAR STYLE",
+    "description": "Whole red snapper fried and served with a traditional Jamaican pickled vinegar sauce. A la carte."
+  },
+  {
+    "name": "(FISH ONLY) Steamed Red Snapper",
+    "description": "Whole red snapper steamed in a light sauce withe onions, carrots and bell peppers. A la carte."
+  },
+  {
+    "name": "(FISH ONLY) Brown Stew Fish",
+    "description": "Whole red snapper fried and then stewed in tomato based sauce. A la carte."
+  },
+  {
+    "name": "Curried Shrimp Roti",
+    "description": "Shrimp marinated in our Jamaican curry blend with onions, tomatoes, and green peppers and served with a dahl puri roti (a tortilla-like flatbread)."
+  },
+  {
+    "name": "Fricasse Chicken (Brown Stew)  Dinner",
+    "description": "Chicken in our brown stew sauce with the complexity of savory and sweet, on rice & peas and cabbage."
+  },
+  {
+    "name": "Side of Fricasse (Brown Stew) Chicken",
+    "description": "Chicken in our brown stew sauce with the complexity of savory and sweet."
+  },
+  {
+    "name": "Chicken Roti",
+    "description": "Curried chicken (Boneless thigh meat) served in a thin dhalpuri roti"
+  },
+  {
+    "name": "Vegetable Stew Roti",
+    "description": "Vegetable stew of carrots, potatoes, plantain, pumpkin, cabbage, mixed vegetables, kidney beans, chickpeas, and coconut cream, served with a dahl puri roti."
+  },
+  {
+    "name": "Goat Roti",
+    "description": ""
+  },
+  {
+    "name": "Curried Shrimp Roti",
+    "description": ""
+  },
+  {
+    "name": "Curried Vegetable Roti",
+    "description": ""
+  },
+  {
+    "name": "Fried Plantain",
+    "description": "Fried yellow sweet plantains. Vegetarian."
+  },
+  {
+    "name": "Rice & Peas",
+    "description": "Red beans and rice cooked in coconut, herbs and spices, served with cabbage. Vegan"
+  },
+  {
+    "name": "Steamed Cabbage",
+    "description": "Cabbage with mixed vegetables, onion, and bell pepper. Vegan"
+  },
+  {
+    "name": "French Fries",
+    "description": "Our newest side dish. Seasoned with our in house seasoning. Add the scotch bonnet aioli for a spicy kick."
+  },
+  {
+    "name": "Mac and Cheese",
+    "description": "Home-made baked Mac and cheese. Vegetarian"
+  },
+  {
+    "name": "Hot Pepper Scotch Bonnet",
+    "description": "Fresh ground scotch bonnet peppers."
+  },
+  {
+    "name": "Rum Pound Cake",
+    "description": "A moist, dense cake glazed with our special rum sauce."
+  },
+  {
+    "name": "Gizzada",
+    "description": "A blend of coconut, brown sugar, and cinnamon inside a pastry shell."
+  },
+  {
+    "name": "Carrot Cake",
+    "description": "A carrot cake with raisins and walnuts."
+  },
+  {
+    "name": "Banana Bread",
+    "description": "Moist and sweet banana cake"
+  },
+  {
+    "name": "Bread Pudding",
+    "description": "Home-made bread pudding using our coco bread, with raisins, spices, and a hint of rum."
+  },
+  {
+    "name": "Sorrel Bottled",
+    "description": "House blend of Jamaican (Hibiscus) Sorrel and fresh ginger. Still our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Lemonade Bottled",
+    "description": "Refreshing strawberry (pink) lemonade.  Still our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Fruit Punch Bottled",
+    "description": "House blend of fresh fruits and juices. \nStill our homemade drink, now being bottled in house."
+  },
+  {
+    "name": "Soursop Bottled",
+    "description": "***New Item***Refreshing blend of soursop with a hint of lime. Our homemade drink, now bottled in house."
+  },
+  {
+    "name": "D&G Kola Champagne",
+    "description": ""
+  },
+  {
+    "name": "D&G Ginger Beer",
+    "description": ""
+  },
+  {
+    "name": "D&G Cream Soda",
+    "description": ""
+  },
+  {
+    "name": "Strawberry Crush 20oz",
+    "description": ""
+  },
+  {
+    "name": "Pepsi 20oz",
+    "description": "The bold, refreshing, robust cola, click to add to your meal."
+  },
+  {
+    "name": "Grape Crush 20oz",
+    "description": ""
+  },
+  {
+    "name": "Orange Crush 20oz",
+    "description": ""
+  },
+  {
+    "name": "Peach Iced Tea 20oz",
+    "description": ""
+  },
+  {
+    "name": "D&G Pineapple",
+    "description": ""
+  },
+  {
+    "name": "D&G Ting",
+    "description": ""
+  },
+  {
+    "name": "D&G Pineapple-Ginger",
+    "description": ""
+  },
+  {
+    "name": "Pineapple Crush 20oz",
+    "description": ""
+  },
+  {
+    "name": "Dr. Pepper 20oz",
+    "description": ""
+  },
+  {
+    "name": "Gravy - Curry Chicken",
+    "description": ""
+  },
+  {
+    "name": "Gravy - Oxtail",
+    "description": ""
+  },
+  {
+    "name": "Jerk Sauce",
+    "description": ""
+  },
+  {
+    "name": "Gravy - Jerk",
+    "description": ""
+  },
+  {
+    "name": "Scotch Bonnet Pepper",
+    "description": "Grounded in house, fresh scotch bonnet pepper."
+  },
+  {
+    "name": "Scotch Bonnet Aioli",
+    "description": ""
+  },
+  {
+    "name": "Gravy - Fricassee",
+    "description": ""
+  },
+  {
+    "name": "Poppy Seed Dressing",
+    "description": ""
+  },
+  {
+    "name": "Gravy - Goat",
+    "description": ""
+  },
+  {
+    "name": "Hot Sauce",
+    "description": "Scotch bonnet peppers made into a smooth sauce to spice up any meal."
+  },
+  {
+    "name": "Rice & Peas Small: 10 Servings",
+    "description": ""
+  },
+  {
+    "name": "Plantain Small: 10 Servings",
+    "description": ""
+  }
+]

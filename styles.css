@@ -1,0 +1,28 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#map
+{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+#restaurant-info
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#menu-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+#menu-list li 
+{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+#menu-list strong {
+    color: #333;
+}
