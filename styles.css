@@ -1,28 +1,69 @@
-body 
-{
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-#map
-{
-    border: 1px solid #ccc;
-    margin-top: 10px;
-}
-#restaurant-info
-{
-    max-width: 600px;
-    margin: 0 auto;
-}
-#menu-list
-{
-    list-style-type: none;
-    padding: 0;
-}
-#menu-list li 
-{
+#menu-list li {
     padding: 10px 0;
     border-bottom: 1px solid #eee;
 }
 #menu-list strong {
     color: #333;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#ingredients-list, #nutrition-list {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#ingredients-list ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+#nutrition-list table {
+    width: 100%;
+    max-width: 300px;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+#nutrition-list table td {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+#nutrition-list table td:first-child {
+    font-weight: bold;
+    width: 70%;
+}
+.menu-item-container {
+    display: flex;
+    align-items: center;
+}
+.menu-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.menu-text {
+    flex: 1;
+}
+.tags {
+    margin-top: 5px;
+}
+.tag {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 12px;
+    font-size: 12px;
 }
