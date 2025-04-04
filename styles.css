@@ -67,3 +67,16 @@ button:hover {
     border-radius: 12px;
     font-size: 12px;
 }
+#search-container{
+    margin-bottom: 15px;
+}
+#search-input {
+    padding: 5px;
+    width: 70%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#search-button {
+    margin-left: 10px;
+}
