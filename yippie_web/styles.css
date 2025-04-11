@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+}
+
+#global-nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#global-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#global-nav li {
+    display: inline;
+    margin: 0 20px;
+}
+#global-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#global-nav a:hover {
+    color: #ddd;
+}
+
+#map-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+#restaurant-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+#restaurant-list li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#restaurant-list li:hover {
+    background-color: #e9ecef;
+}
+
+#game-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+#game-prompt {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#game-feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
+#game-feedback.success {
+    color: #28a745;
+}
+#game-feedback.error {
+    color: #dc3545;
+}
+
+#local-nav {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+#local-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#local-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+#local-nav a {
+    color: #007bff;
+    text-decoration: none;
+}
+#local-nav a:hover {
+    text-decoration: underline;
+}
+
+#upload-container {
+    margin: 15px 0;
+}
+#upload-container label {
+    margin-right: 10px;
+}
+#image-type, #other-description, #image-upload {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#image-preview {
+    margin-top: 10px;
+}
+#image-preview img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+#menu-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu-list strong {
+    color: #333;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#ingredients-list, #nutrition-list {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#ingredients-list ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+#nutrition-list table {
+    width: 100%;
+    max-width: 300px;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+#nutrition-list table td {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+#nutrition-list table td:first-child {
+    font-weight: bold;
+    width: 70%;
+}
+.menu-item-container {
+    display: flex;
+    align-items: center;
+}
+.menu-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.menu-text {
+    flex: 1;
+}
+.tags {
+    margin-top: 5px;
+}
+.tag {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+#search-container {
+    margin-bottom: 15px;
+}
+#search-input {
+    padding: 5px;
+    width: 70%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#search-button {
+    margin-left: 10px;
+}
+#restaurant-rating, .rating {
+    margin: 5px 0;
+}
+#restaurant-like, .like-btn {
+    background-color: #28a745;
+}
+#restaurant-like:hover, .like-btn:hover {
+    background-color: #218838;
+}
+#restaurant-dislike, .dislike-btn {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+#restaurant-dislike:hover, .dislike-btn:hover {
+    background-color: #c82333;
+}
+#restaurant-like-count, #restaurant-dislike-count, .like-count, .dislike-count {
+    margin: 0 10px;
+    font-weight: bold;
+}

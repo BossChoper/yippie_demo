@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Finder - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="global-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Restaurant Finder</h1>
+    <div id="restaurant-info">
+        <h2 id="restaurant-name">Loading...</h2>
+        <div id="restaurant-rating">
+            <button id="restaurant-like">Like</button>
+            <span id="restaurant-like-count">0</span>
+            <button id="restaurant-dislike">Dislike</button>
+            <span id="restaurant-dislike-count">0</span>
+        </div>
+        <p id="restaurant-address"></p>
+
+        <div id="upload-container">
+            <label for="image-upload">Upload Image:</label>
+            <select id="image-type">
+                <option value="menu">Menu</option>
+                <option value="food">Food Image</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="text" id="other-description" placeholder="Describe 'Other' image" style="display: none;">
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="upload-button">Upload</button>
+            <div id="image-preview"></div>
+        </div>
+
+        <nav id="local-nav">
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+
+        <div id="map" style="height: 300px; width: 100%;"></div>
+        <h3>Menu</h3>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search by name, tag, ingredient, or nutrition (e.g., >30g protein)">
+            <button id="search-button">Search</button>
+        </div>
+        <ul id="menu-list"></ul>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3vXVm5ueD86pMPcNu-b1twmWtmAWCyNo&libraries=places&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>

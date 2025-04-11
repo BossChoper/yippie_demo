@@ -1,0 +1,1016 @@
+Last login: Fri Mar 28 10:30:34 on ttys006
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air ~ % ping 10.0.0.6
+PING 10.0.0.6 (10.0.0.6): 56 data bytes
+64 bytes from 10.0.0.6: icmp_seq=0 ttl=64 time=0.158 ms
+64 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=0.125 ms
+64 bytes from 10.0.0.6: icmp_seq=2 ttl=64 time=0.190 ms
+^C
+--- 10.0.0.6 ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.125/0.158/0.190/0.027 ms
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air ~ % cd Documents/ 
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Documents % mkdir React_restaurant_app
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Documents % cd React_restaurant_app
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air React_restaurant_app % npx create-expo-app@latest
+Need to install the following packages:
+create-expo-app@3.2.0
+Ok to proceed? (y) y
+
+Creating an Expo project using the default template.
+
+To choose from all available templates pass in the --template arg:
+  $ npx create-expo-app --template
+
+To choose from all available examples pass in the --example arg:
+  $ npx create-expo-app --example
+
+✔ What is your app named? … Yippie
+✔ Downloaded and extracted project files.
+> npm install
+npm error code EACCES
+npm error syscall open
+npm error path /Users/mkonteh88/.npm/_cacache/index-v5/27/44/61aaba9c992c63d6809855bb4fd2adad61274a31ac7a762938cd736a41e9
+npm error errno EACCES
+npm error
+npm error Your cache folder contains root-owned files, due to a bug in
+npm error previous versions of npm which has since been addressed.
+npm error
+npm error To permanently fix this problem, please run:
+npm error   sudo chown -R 501:20 "/Users/mkonteh88/.npm"
+npm error A complete log of this run can be found in: /Users/mkonteh88/.npm/_logs/2025-03-29T19_35_00_439Z-debug-0.log
+Something went wrong installing JavaScript dependencies. Check your npm logs. Continuing to create the app.
+Error: npm install exited with non-zero code: 1
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd Yippie
+- npm run android
+- npm run ios
+- npm run web
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air React_restaurant_app % cd Yippie 
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npm run web
+
+> yippie@1.0.0 web
+> expo start --web
+
+sh: expo: command not found
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % expo start --web
+zsh: command not found: expo
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npm run web
+
+> yippie@1.0.0 web
+> expo start --web
+
+sh: expo: command not found
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npx expo start
+Need to install the following packages:
+expo@52.0.41
+Ok to proceed? (y) y
+
+npm error code EACCES
+npm error syscall open
+npm error path /Users/mkonteh88/.npm/_cacache/index-v5/27/44/61aaba9c992c63d6809855bb4fd2adad61274a31ac7a762938cd736a41e9
+npm error errno EACCES
+npm error
+npm error Your cache folder contains root-owned files, due to a bug in
+npm error previous versions of npm which has since been addressed.
+npm error
+npm error To permanently fix this problem, please run:
+npm error   sudo chown -R 501:20 "/Users/mkonteh88/.npm"
+npm error A complete log of this run can be found in: /Users/mkonteh88/.npm/_logs/2025-03-29T19_36_41_329Z-debug-0.log
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % sudo chown -R 501:20 "/Users/mkonteh88/.npm
+dquote>   
+dquote> "
+Password:
+chown: /Users/mkonteh88/.npm
+
+: No such file or directory
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % sudo chown -R 501:20 "/Users/mkonteh88/.npm" 
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npx expo start
+Need to install the following packages:
+expo@52.0.41
+Ok to proceed? (y) y
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+Starting project at /Users/mkonteh88/Documents/React_restaurant_app/Yippie
+ConfigError: Cannot determine which native SDK version your project uses because the module `expo` is not installed. Please install it with `yarn add expo` and try again.
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % yarn add expo
+yarn add v1.22.14
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+warning expo-constants > @expo/config > @expo/config-plugins > @expo/plist > @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+warning react-native > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning react-native > babel-jest > babel-plugin-istanbul > test-exclude > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/dev-middleware > chromium-edge-launcher > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning react-native > @react-native/codegen > jscodeshift > temp > rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+warning react-native > @react-native/community-cli-plugin > @react-native/dev-middleware > chromium-edge-launcher > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > jscodeshift > temp > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > jest-cli > jest-config > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > @jest/core > jest-runtime > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > @jest/core > @jest/reporters > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest-expo > jest-environment-jsdom > jsdom > abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+warning jest-expo > jest-environment-jsdom > jsdom > data-urls > abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+warning jest-expo > jest-environment-jsdom > jsdom > domexception@4.0.0: Use your platform's native DOMException instead
+warning expo > @expo/cli > tempy > del > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning expo > @expo/cli > @expo/devcert > sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+warning expo > @expo/cli > @expo/package-manager > sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[2/4] 🚚  Fetching packages...
+info lightningcss-freebsd-x64@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-freebsd-x64@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-freebsd-x64@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-darwin-x64@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info "lightningcss-darwin-x64@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-gnu@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-x64-gnu@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-gnu@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-linux-x64-musl@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-x64-musl@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-musl@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-win32-x64-msvc@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-win32-x64-msvc@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-win32-x64-msvc@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-linux-arm64-gnu@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm64-gnu@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-arm-gnueabihf@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm-gnueabihf@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-arm-gnueabihf@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-linux-arm64-musl@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm64-musl@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-win32-arm64-msvc@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-win32-arm64-msvc@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] 🔗  Linking dependencies...
+warning "react-native > @react-native/codegen@0.76.7" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has incorrect peer dependency "react@19.0.0-rc-6230622a1a-20240610".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has incorrect peer dependency "react-dom@19.0.0-rc-6230622a1a-20240610".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has unmet peer dependency "webpack@^5.59.0".
+error An unexpected error occurred: "ENOSPC: no space left on device, copyfile '/Users/mkonteh88/Library/Caches/Yarn/v6/npm-@expo-cli-0.22.22-a759becb73a8e1bbe1b5bb748e506d8d75872d08-integrity/node_modules/@expo/cli/build/src/export/embed/exportEmbedAsync.js.map' -> '/Users/mkonteh88/Documents/React_restaurant_app/Yippie/node_modules/@expo/cli/build/src/export/embed/exportEmbedAsync.js.map'".
+info If you think this is a bug, please open a bug report with the information provided in "/Users/mkonteh88/Documents/React_restaurant_app/Yippie/yarn-error.log".
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % yarn add expo
+yarn add v1.22.14
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+warning expo-constants > @expo/config > @expo/config-plugins > @expo/plist > @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+warning react-native > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > glob > inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+warning react-native > babel-jest > babel-plugin-istanbul > test-exclude > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning react-native > @react-native/codegen > jscodeshift > temp > rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+warning react-native > @react-native/community-cli-plugin > @react-native/dev-middleware > chromium-edge-launcher > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning react-native > @react-native/codegen > jscodeshift > temp > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning react-native > @react-native/community-cli-plugin > @react-native/dev-middleware > chromium-edge-launcher > rimraf > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > jest-cli > jest-config > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > @jest/core > jest-runtime > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest > @jest/core > @jest/reporters > glob@7.2.3: Glob versions prior to v9 are no longer supported
+warning jest-expo > jest-environment-jsdom > jsdom > abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+warning jest-expo > jest-environment-jsdom > jsdom > data-urls > abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+warning jest-expo > jest-environment-jsdom > jsdom > domexception@4.0.0: Use your platform's native DOMException instead
+warning expo > @expo/cli > tempy > del > rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+warning expo > @expo/cli > @expo/devcert > sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+warning expo > @expo/cli > @expo/package-manager > sudo-prompt@9.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[2/4] 🚚  Fetching packages...
+info lightningcss-freebsd-x64@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-freebsd-x64@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-freebsd-x64@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-darwin-x64@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info "lightningcss-darwin-x64@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-gnu@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-x64-gnu@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-gnu@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-linux-x64-musl@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-x64-musl@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-x64-musl@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-win32-x64-msvc@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-win32-x64-msvc@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-win32-x64-msvc@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-linux-arm64-gnu@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm64-gnu@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-arm64-musl@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm64-musl@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-arm-gnueabihf@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-linux-arm-gnueabihf@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+info lightningcss-linux-arm-gnueabihf@1.27.0: The CPU architecture "arm64" is incompatible with this module.
+info lightningcss-win32-arm64-msvc@1.27.0: The platform "darwin" is incompatible with this module.
+info "lightningcss-win32-arm64-msvc@1.27.0" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] 🔗  Linking dependencies...
+warning "react-native > @react-native/codegen@0.76.7" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "react-native > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has incorrect peer dependency "react@19.0.0-rc-6230622a1a-20240610".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has incorrect peer dependency "react-dom@19.0.0-rc-6230622a1a-20240610".
+warning "jest-expo > react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610" has unmet peer dependency "webpack@^5.59.0".
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+success Saved 605 new dependencies.
+info Direct dependencies
+├─ @babel/core@7.26.10
+├─ @expo/vector-icons@14.0.4
+├─ @types/jest@29.5.14
+├─ @types/react-test-renderer@18.3.1
+├─ @types/react@18.3.20
+├─ expo-blur@14.0.3
+├─ expo-haptics@14.0.1
+├─ expo-linking@7.0.5
+├─ expo-router@4.0.19
+├─ expo-splash-screen@0.29.22
+├─ expo-status-bar@2.0.1
+├─ expo-symbols@0.2.2
+├─ expo-system-ui@4.0.8
+├─ expo-web-browser@14.0.2
+├─ expo@52.0.41
+├─ jest-expo@52.0.6
+├─ jest@29.7.0
+├─ react-dom@18.3.1
+├─ react-native-gesture-handler@2.20.2
+├─ react-native-reanimated@3.16.7
+├─ react-native-safe-area-context@4.12.0
+├─ react-native-screens@4.4.0
+├─ react-native-web@0.19.13
+├─ react-native-webview@13.12.5
+├─ react-native@0.76.7
+├─ react@18.3.1
+└─ typescript@5.8.2
+info All dependencies
+├─ @0no-co/graphql.web@1.1.2
+├─ @ampproject/remapping@2.3.0
+├─ @babel/code-frame@7.26.2
+├─ @babel/compat-data@7.26.8
+├─ @babel/core@7.26.10
+├─ @babel/generator@7.27.0
+├─ @babel/helper-compilation-targets@7.27.0
+├─ @babel/helper-define-polyfill-provider@0.6.4
+├─ @babel/helper-replace-supers@7.26.5
+├─ @babel/helper-string-parser@7.25.9
+├─ @babel/helper-wrap-function@7.25.9
+├─ @babel/helpers@7.27.0
+├─ @babel/highlight@7.25.9
+├─ @babel/parser@7.27.0
+├─ @babel/plugin-proposal-class-properties@7.18.6
+├─ @babel/plugin-proposal-decorators@7.25.9
+├─ @babel/plugin-proposal-export-default-from@7.25.9
+├─ @babel/plugin-proposal-nullish-coalescing-operator@7.18.6
+├─ @babel/plugin-proposal-optional-chaining@7.21.0
+├─ @babel/plugin-syntax-async-generators@7.8.4
+├─ @babel/plugin-syntax-bigint@7.8.3
+├─ @babel/plugin-syntax-class-properties@7.12.13
+├─ @babel/plugin-syntax-class-static-block@7.14.5
+├─ @babel/plugin-syntax-decorators@7.25.9
+├─ @babel/plugin-syntax-dynamic-import@7.8.3
+├─ @babel/plugin-syntax-export-default-from@7.25.9
+├─ @babel/plugin-syntax-flow@7.26.0
+├─ @babel/plugin-syntax-import-attributes@7.26.0
+├─ @babel/plugin-syntax-import-meta@7.10.4
+├─ @babel/plugin-syntax-json-strings@7.8.3
+├─ @babel/plugin-syntax-jsx@7.25.9
+├─ @babel/plugin-syntax-logical-assignment-operators@7.10.4
+├─ @babel/plugin-syntax-numeric-separator@7.10.4
+├─ @babel/plugin-syntax-object-rest-spread@7.8.3
+├─ @babel/plugin-syntax-optional-catch-binding@7.8.3
+├─ @babel/plugin-syntax-private-property-in-object@7.14.5
+├─ @babel/plugin-syntax-top-level-await@7.14.5
+├─ @babel/plugin-syntax-typescript@7.25.9
+├─ @babel/plugin-transform-arrow-functions@7.25.9
+├─ @babel/plugin-transform-async-generator-functions@7.26.8
+├─ @babel/plugin-transform-async-to-generator@7.25.9
+├─ @babel/plugin-transform-block-scoping@7.27.0
+├─ @babel/plugin-transform-class-properties@7.25.9
+├─ @babel/plugin-transform-classes@7.25.9
+├─ @babel/plugin-transform-computed-properties@7.25.9
+├─ @babel/plugin-transform-destructuring@7.25.9
+├─ @babel/plugin-transform-export-namespace-from@7.25.9
+├─ @babel/plugin-transform-flow-strip-types@7.26.5
+├─ @babel/plugin-transform-for-of@7.26.9
+├─ @babel/plugin-transform-function-name@7.25.9
+├─ @babel/plugin-transform-literals@7.25.9
+├─ @babel/plugin-transform-logical-assignment-operators@7.25.9
+├─ @babel/plugin-transform-modules-commonjs@7.26.3
+├─ @babel/plugin-transform-named-capturing-groups-regex@7.25.9
+├─ @babel/plugin-transform-nullish-coalescing-operator@7.26.6
+├─ @babel/plugin-transform-numeric-separator@7.25.9
+├─ @babel/plugin-transform-object-rest-spread@7.25.9
+├─ @babel/plugin-transform-optional-catch-binding@7.25.9
+├─ @babel/plugin-transform-optional-chaining@7.25.9
+├─ @babel/plugin-transform-parameters@7.25.9
+├─ @babel/plugin-transform-private-methods@7.25.9
+├─ @babel/plugin-transform-private-property-in-object@7.25.9
+├─ @babel/plugin-transform-react-display-name@7.25.9
+├─ @babel/plugin-transform-react-jsx-development@7.25.9
+├─ @babel/plugin-transform-react-jsx-self@7.25.9
+├─ @babel/plugin-transform-react-jsx-source@7.25.9
+├─ @babel/plugin-transform-react-pure-annotations@7.25.9
+├─ @babel/plugin-transform-regenerator@7.27.0
+├─ @babel/plugin-transform-runtime@7.26.10
+├─ @babel/plugin-transform-shorthand-properties@7.25.9
+├─ @babel/plugin-transform-spread@7.25.9
+├─ @babel/plugin-transform-sticky-regex@7.25.9
+├─ @babel/plugin-transform-template-literals@7.26.8
+├─ @babel/plugin-transform-typescript@7.27.0
+├─ @babel/plugin-transform-unicode-regex@7.25.9
+├─ @babel/preset-flow@7.25.9
+├─ @babel/preset-react@7.26.3
+├─ @babel/preset-typescript@7.27.0
+├─ @babel/register@7.25.9
+├─ @babel/traverse--for-generate-function-map@7.27.0
+├─ @babel/types@7.27.0
+├─ @bcoe/v8-coverage@0.2.3
+├─ @egjs/hammerjs@2.0.17
+├─ @expo/bunyan@4.0.1
+├─ @expo/cli@0.22.22
+├─ @expo/code-signing-certificates@0.0.5
+├─ @expo/devcert@1.1.4
+├─ @expo/fingerprint@0.11.11
+├─ @expo/metro-config@0.19.12
+├─ @expo/metro-runtime@4.0.1
+├─ @expo/osascript@2.1.6
+├─ @expo/package-manager@1.7.2
+├─ @expo/prebuild-config@8.0.29
+├─ @expo/rudder-sdk-node@1.1.1
+├─ @expo/sdk-runtime-versions@1.0.0
+├─ @expo/server@0.5.3
+├─ @expo/vector-icons@14.0.4
+├─ @expo/ws-tunnel@1.0.6
+├─ @expo/xcpretty@4.3.2
+├─ @isaacs/cliui@8.0.2
+├─ @isaacs/ttlcache@1.4.1
+├─ @istanbuljs/load-nyc-config@1.1.0
+├─ @istanbuljs/schema@0.1.3
+├─ @jest/create-cache-key-function@29.7.0
+├─ @jest/globals@29.7.0
+├─ @jest/reporters@29.7.0
+├─ @jest/source-map@29.6.3
+├─ @jest/test-sequencer@29.7.0
+├─ @jridgewell/resolve-uri@3.1.2
+├─ @jridgewell/set-array@1.2.1
+├─ @jridgewell/source-map@0.3.6
+├─ @jridgewell/sourcemap-codec@1.5.0
+├─ @jridgewell/trace-mapping@0.3.25
+├─ @nodelib/fs.scandir@2.1.5
+├─ @nodelib/fs.stat@2.0.5
+├─ @nodelib/fs.walk@1.2.8
+├─ @npmcli/fs@3.1.1
+├─ @pkgjs/parseargs@0.11.0
+├─ @radix-ui/react-compose-refs@1.0.0
+├─ @radix-ui/react-slot@1.0.1
+├─ @react-native/assets-registry@0.76.7
+├─ @react-native/babel-plugin-codegen@0.76.7
+├─ @react-native/community-cli-plugin@0.76.7
+├─ @react-native/debugger-frontend@0.76.7
+├─ @react-native/gradle-plugin@0.76.7
+├─ @react-native/js-polyfills@0.76.7
+├─ @react-native/metro-babel-transformer@0.76.7
+├─ @react-native/virtualized-lists@0.76.7
+├─ @react-navigation/core@7.7.0
+├─ @react-navigation/native-stack@7.3.3
+├─ @react-navigation/routers@7.3.1
+├─ @segment/loosely-validate-event@2.0.0
+├─ @sinclair/typebox@0.27.8
+├─ @sinonjs/commons@3.0.1
+├─ @sinonjs/fake-timers@10.3.0
+├─ @tootallnate/once@2.0.0
+├─ @types/babel__generator@7.6.8
+├─ @types/babel__template@7.4.4
+├─ @types/babel__traverse@7.20.7
+├─ @types/graceful-fs@4.1.9
+├─ @types/hammerjs@2.0.46
+├─ @types/istanbul-lib-coverage@2.0.6
+├─ @types/istanbul-lib-report@3.0.3
+├─ @types/istanbul-reports@3.0.4
+├─ @types/jest@29.5.14
+├─ @types/jsdom@20.0.1
+├─ @types/json-schema@7.0.15
+├─ @types/node-forge@1.3.11
+├─ @types/prop-types@15.7.14
+├─ @types/react-test-renderer@18.3.1
+├─ @types/react@18.3.20
+├─ @types/stack-utils@2.0.3
+├─ @types/tough-cookie@4.0.5
+├─ @types/yargs-parser@21.0.3
+├─ @types/yargs@17.0.33
+├─ @urql/core@5.1.1
+├─ @urql/exchange-retry@1.3.1
+├─ @xmldom/xmldom@0.7.13
+├─ accepts@1.3.8
+├─ acorn-globals@7.0.1
+├─ acorn-loose@8.4.0
+├─ acorn-walk@8.3.4
+├─ aggregate-error@3.1.0
+├─ ajv-formats@2.1.1
+├─ ajv-keywords@5.1.0
+├─ ajv@8.17.1
+├─ anser@1.4.10
+├─ ansi-escapes@4.3.2
+├─ anymatch@3.1.3
+├─ application-config-path@0.1.1
+├─ argparse@1.0.10
+├─ array-union@2.1.0
+├─ asap@2.0.6
+├─ ast-types@0.15.2
+├─ async-limiter@1.0.1
+├─ babel-core@7.0.0-bridge.0
+├─ babel-jest@29.7.0
+├─ babel-plugin-jest-hoist@29.6.3
+├─ babel-plugin-polyfill-corejs2@0.4.13
+├─ babel-plugin-polyfill-corejs3@0.11.1
+├─ babel-plugin-polyfill-regenerator@0.6.4
+├─ babel-plugin-react-native-web@0.19.13
+├─ babel-plugin-syntax-hermes-parser@0.23.1
+├─ babel-plugin-transform-flow-enums@0.0.2
+├─ babel-preset-expo@12.0.9
+├─ babel-preset-jest@29.6.3
+├─ base64-js@1.5.1
+├─ better-opn@3.0.2
+├─ bplist-creator@0.0.7
+├─ bplist-parser@0.3.2
+├─ brace-expansion@1.1.11
+├─ braces@3.0.3
+├─ browserslist@4.24.4
+├─ bser@2.1.1
+├─ buffer-alloc-unsafe@1.1.0
+├─ buffer-alloc@1.2.0
+├─ buffer-fill@1.0.0
+├─ buffer@5.7.1
+├─ bytes@3.1.2
+├─ cacache@18.0.4
+├─ call-bind-apply-helpers@1.0.2
+├─ caller-callsite@2.0.0
+├─ caller-path@2.0.0
+├─ callsites@3.1.0
+├─ camelcase@6.3.0
+├─ caniuse-lite@1.0.30001707
+├─ char-regex@1.0.2
+├─ charenc@0.0.2
+├─ chownr@2.0.0
+├─ chrome-launcher@0.15.2
+├─ chromium-edge-launcher@0.2.0
+├─ ci-info@3.9.0
+├─ cjs-module-lexer@1.4.3
+├─ clean-stack@2.2.0
+├─ cli-cursor@2.1.0
+├─ cli-spinners@2.9.2
+├─ client-only@0.0.1
+├─ cliui@8.0.1
+├─ clone-deep@4.0.1
+├─ clone@1.0.4
+├─ co@4.6.0
+├─ color-name@1.1.4
+├─ color-string@1.9.1
+├─ command-exists@1.2.9
+├─ commander@12.1.0
+├─ commondir@1.0.1
+├─ component-type@1.2.2
+├─ compressible@2.0.18
+├─ compression@1.8.0
+├─ concat-map@0.0.1
+├─ connect@3.7.0
+├─ core-js-compat@3.41.0
+├─ cosmiconfig@5.2.1
+├─ create-jest@29.7.0
+├─ cross-fetch@3.2.0
+├─ crypt@0.0.2
+├─ crypto-random-string@2.0.0
+├─ css-in-js-utils@3.1.0
+├─ cssom@0.5.0
+├─ cssstyle@2.3.0
+├─ csstype@3.1.3
+├─ data-urls@3.0.2
+├─ decimal.js@10.5.0
+├─ decode-uri-component@0.2.2
+├─ dedent@1.5.3
+├─ deep-extend@0.6.0
+├─ deepmerge@4.3.1
+├─ default-gateway@4.2.0
+├─ defaults@1.0.4
+├─ define-lazy-prop@2.0.0
+├─ del@6.1.1
+├─ delayed-stream@1.0.0
+├─ detect-libc@1.0.3
+├─ detect-newline@3.1.0
+├─ diff-sequences@29.6.3
+├─ dir-glob@3.0.1
+├─ domexception@4.0.0
+├─ dotenv-expand@11.0.7
+├─ dotenv@16.4.7
+├─ dunder-proto@1.0.1
+├─ eastasianwidth@0.2.0
+├─ electron-to-chromium@1.5.128
+├─ end-of-stream@1.4.4
+├─ entities@4.5.0
+├─ env-editor@0.4.2
+├─ eol@0.9.1
+├─ es-define-property@1.0.1
+├─ es-object-atoms@1.1.1
+├─ escalade@3.2.0
+├─ escodegen@2.1.0
+├─ esprima@4.0.1
+├─ estraverse@5.3.0
+├─ esutils@2.0.3
+├─ event-target-shim@5.0.1
+├─ exec-async@2.2.0
+├─ execa@5.1.1
+├─ expo-asset@11.0.5
+├─ expo-blur@14.0.3
+├─ expo-file-system@18.0.12
+├─ expo-haptics@14.0.1
+├─ expo-keep-awake@14.0.3
+├─ expo-linking@7.0.5
+├─ expo-modules-autolinking@2.0.8
+├─ expo-modules-core@2.2.3
+├─ expo-router@4.0.19
+├─ expo-splash-screen@0.29.22
+├─ expo-status-bar@2.0.1
+├─ expo-symbols@0.2.2
+├─ expo-system-ui@4.0.8
+├─ expo-web-browser@14.0.2
+├─ expo@52.0.41
+├─ exponential-backoff@3.1.2
+├─ fast-glob@3.3.3
+├─ fast-json-stable-stringify@2.1.0
+├─ fast-loops@1.1.4
+├─ fast-uri@3.0.6
+├─ fastq@1.19.1
+├─ fbjs-css-vars@1.0.2
+├─ fbjs@3.0.5
+├─ fetch-retry@4.1.1
+├─ fill-range@7.1.1
+├─ filter-obj@1.1.0
+├─ finalhandler@1.1.2
+├─ find-cache-dir@2.1.0
+├─ flow-parser@0.266.0
+├─ fontfaceobserver@2.3.0
+├─ foreground-child@3.3.1
+├─ form-data@3.0.3
+├─ freeport-async@2.0.0
+├─ fs-minipass@2.1.0
+├─ fs.realpath@1.0.0
+├─ fsevents@2.3.3
+├─ gensync@1.0.0-beta.2
+├─ get-caller-file@2.0.5
+├─ get-intrinsic@1.3.0
+├─ get-package-type@0.1.0
+├─ get-port@3.2.0
+├─ get-proto@1.0.1
+├─ get-stream@6.0.1
+├─ glob-parent@5.1.2
+├─ globby@11.1.0
+├─ has-symbols@1.1.0
+├─ has-tostringtag@1.0.2
+├─ hermes-estree@0.23.1
+├─ hoist-non-react-statics@3.3.2
+├─ hosted-git-info@7.0.2
+├─ html-encoding-sniffer@3.0.0
+├─ html-escaper@2.0.2
+├─ http-proxy-agent@5.0.0
+├─ https-proxy-agent@5.0.1
+├─ human-signals@2.1.0
+├─ hyphenate-style-name@1.1.0
+├─ iconv-lite@0.6.3
+├─ ieee754@1.2.1
+├─ ignore@5.3.2
+├─ image-size@1.2.0
+├─ import-fresh@2.0.0
+├─ indent-string@4.0.0
+├─ inflight@1.0.6
+├─ inherits@2.0.4
+├─ ini@1.3.8
+├─ inline-style-prefixer@6.0.4
+├─ internal-ip@4.3.0
+├─ ip-regex@2.1.0
+├─ ipaddr.js@1.9.1
+├─ is-arrayish@0.3.2
+├─ is-buffer@1.1.6
+├─ is-core-module@2.16.1
+├─ is-directory@0.3.1
+├─ is-docker@2.2.1
+├─ is-extglob@2.1.1
+├─ is-generator-fn@2.1.0
+├─ is-number@7.0.0
+├─ is-path-cwd@2.2.0
+├─ is-path-inside@3.0.3
+├─ is-plain-object@2.0.4
+├─ is-potential-custom-element-name@1.0.1
+├─ isobject@3.0.1
+├─ istanbul-lib-instrument@5.2.1
+├─ istanbul-lib-source-maps@4.0.1
+├─ istanbul-reports@3.1.7
+├─ jackspeak@3.4.3
+├─ jest-changed-files@29.7.0
+├─ jest-circus@29.7.0
+├─ jest-cli@29.7.0
+├─ jest-docblock@29.7.0
+├─ jest-each@29.7.0
+├─ jest-environment-jsdom@29.7.0
+├─ jest-expo@52.0.6
+├─ jest-leak-detector@29.7.0
+├─ jest-pnp-resolver@1.2.3
+├─ jest-regex-util@29.6.3
+├─ jest-resolve-dependencies@29.7.0
+├─ jest-snapshot@29.7.0
+├─ jest-watch-select-projects@2.0.0
+├─ jest-watch-typeahead@2.2.1
+├─ jest-watcher@29.7.0
+├─ jest@29.7.0
+├─ jimp-compact@0.16.1
+├─ join-component@1.1.0
+├─ jsc-android@250231.0.0
+├─ jsc-safe-url@0.2.4
+├─ jscodeshift@0.14.0
+├─ jsdom@20.0.3
+├─ jsesc@3.1.0
+├─ json-parse-better-errors@1.0.2
+├─ json-parse-even-better-errors@2.3.1
+├─ json-schema-traverse@1.0.0
+├─ kleur@3.0.3
+├─ leven@3.1.0
+├─ lightningcss-darwin-arm64@1.27.0
+├─ lightningcss@1.27.0
+├─ locate-path@6.0.0
+├─ lodash@4.17.21
+├─ log-symbols@2.2.0
+├─ make-dir@2.1.0
+├─ makeerror@1.0.12
+├─ marky@1.2.5
+├─ math-intrinsics@1.1.0
+├─ md5-file@3.2.3
+├─ md5@2.3.0
+├─ memoize-one@5.2.1
+├─ merge2@1.4.1
+├─ metro-config@0.81.4
+├─ metro-file-map@0.81.4
+├─ metro-minify-terser@0.81.4
+├─ metro-transform-worker@0.81.4
+├─ mime-db@1.52.0
+├─ mime-types@2.1.35
+├─ mimic-fn@2.1.0
+├─ minimist@1.2.8
+├─ minipass-collect@2.0.1
+├─ minipass-flush@1.0.5
+├─ minipass-pipeline@1.2.4
+├─ minizlib@2.1.2
+├─ ms@2.1.3
+├─ mz@2.7.0
+├─ natural-compare@1.4.0
+├─ negotiator@0.6.3
+├─ neo-async@2.6.2
+├─ nested-error-stacks@2.0.1
+├─ nice-try@1.0.5
+├─ node-dir@0.1.17
+├─ node-fetch@2.7.0
+├─ node-forge@1.3.1
+├─ node-int64@0.4.0
+├─ node-releases@2.0.19
+├─ normalize-path@3.0.0
+├─ npm-run-path@4.0.1
+├─ nwsapi@2.2.20
+├─ ob1@0.81.4
+├─ on-headers@1.0.2
+├─ once@1.4.0
+├─ onetime@5.1.2
+├─ open@7.4.2
+├─ os-tmpdir@1.0.2
+├─ p-finally@1.0.0
+├─ p-locate@5.0.0
+├─ p-try@2.2.0
+├─ package-json-from-dist@1.0.1
+├─ parse-json@5.2.0
+├─ parse-png@2.1.0
+├─ parse5@7.2.1
+├─ password-prompt@1.1.3
+├─ path-is-absolute@1.0.1
+├─ path-key@2.0.1
+├─ path-parse@1.0.7
+├─ path-scurry@1.11.1
+├─ path-type@4.0.0
+├─ picomatch@2.3.1
+├─ pify@4.0.1
+├─ pirates@4.0.7
+├─ pkg-dir@4.2.0
+├─ plist@3.1.0
+├─ pngjs@3.4.0
+├─ postcss-value-parser@4.2.0
+├─ postcss@8.4.49
+├─ pretty-bytes@5.6.0
+├─ proc-log@4.2.0
+├─ progress@2.0.3
+├─ promise@8.3.0
+├─ prompts@2.4.2
+├─ psl@1.15.0
+├─ pump@3.0.2
+├─ pure-rand@6.1.0
+├─ qrcode-terminal@0.11.0
+├─ query-string@7.1.3
+├─ querystringify@2.2.0
+├─ queue-microtask@1.2.3
+├─ queue@6.0.2
+├─ rc@1.2.8
+├─ react-devtools-core@5.3.2
+├─ react-dom@18.3.1
+├─ react-fast-compare@3.2.2
+├─ react-freeze@1.0.4
+├─ react-helmet-async@1.3.0
+├─ react-is@18.3.1
+├─ react-native-gesture-handler@2.20.2
+├─ react-native-helmet-async@2.0.4
+├─ react-native-is-edge-to-edge@1.1.6
+├─ react-native-reanimated@3.16.7
+├─ react-native-safe-area-context@4.12.0
+├─ react-native-screens@4.4.0
+├─ react-native-web@0.19.13
+├─ react-native-webview@13.12.5
+├─ react-native@0.76.7
+├─ react-refresh@0.14.2
+├─ react-server-dom-webpack@19.0.0-rc-6230622a1a-20240610
+├─ react-shallow-renderer@16.15.0
+├─ react@18.3.1
+├─ readline@1.3.0
+├─ recast@0.21.5
+├─ regenerate-unicode-properties@10.2.0
+├─ regenerator-runtime@0.13.11
+├─ regenerator-transform@0.15.2
+├─ regexpu-core@6.2.0
+├─ regjsgen@0.8.0
+├─ regjsparser@0.12.0
+├─ remove-trailing-slash@0.1.1
+├─ require-directory@2.1.1
+├─ requireg@0.2.2
+├─ requires-port@1.0.0
+├─ resolve-cwd@3.0.0
+├─ resolve.exports@2.0.3
+├─ resolve@1.22.10
+├─ restore-cursor@2.0.0
+├─ reusify@1.1.0
+├─ run-parallel@1.2.0
+├─ safe-buffer@5.2.1
+├─ safer-buffer@2.1.2
+├─ sax@1.4.1
+├─ saxes@6.0.0
+├─ schema-utils@4.3.0
+├─ selfsigned@2.4.1
+├─ send@0.19.1
+├─ serialize-error@2.1.0
+├─ serve-static@1.16.2
+├─ setimmediate@1.0.5
+├─ setprototypeof@1.2.0
+├─ sf-symbols-typescript@2.1.0
+├─ shallow-clone@3.0.1
+├─ shebang-command@2.0.0
+├─ shebang-regex@3.0.0
+├─ shell-quote@1.8.2
+├─ simple-plist@1.3.1
+├─ simple-swizzle@0.2.2
+├─ sisteransi@1.0.5
+├─ source-map-js@1.2.1
+├─ source-map@0.6.1
+├─ split-on-first@1.1.0
+├─ split@1.0.1
+├─ sprintf-js@1.0.3
+├─ ssri@10.0.6
+├─ stack-generator@2.0.10
+├─ stacktrace-gps@3.1.2
+├─ stacktrace-js@2.0.2
+├─ stream-buffers@2.2.0
+├─ strict-uri-encode@2.0.0
+├─ string-width-cjs@4.2.3
+├─ strip-ansi-cjs@6.0.1
+├─ strip-bom@4.0.0
+├─ strip-eof@1.0.0
+├─ strip-final-newline@2.0.0
+├─ strip-json-comments@3.1.1
+├─ structured-headers@0.4.1
+├─ styleq@0.1.3
+├─ sucrase@3.35.0
+├─ sudo-prompt@9.1.1
+├─ supports-color@7.2.0
+├─ supports-hyperlinks@2.3.0
+├─ supports-preserve-symlinks-flag@1.0.0
+├─ symbol-tree@3.2.4
+├─ tar@6.2.1
+├─ temp@0.8.4
+├─ tempy@0.7.1
+├─ terminal-link@2.1.1
+├─ terser@5.39.0
+├─ test-exclude@6.0.0
+├─ thenify-all@1.6.0
+├─ thenify@3.3.1
+├─ throat@5.0.0
+├─ through@2.3.8
+├─ tmp@0.0.33
+├─ to-regex-range@5.0.1
+├─ toidentifier@1.0.1
+├─ tough-cookie@4.1.4
+├─ tr46@3.0.0
+├─ ts-interface-checker@0.1.13
+├─ tslib@2.8.1
+├─ type-detect@4.0.8
+├─ type-fest@0.21.3
+├─ typescript@5.8.2
+├─ ua-parser-js@1.0.40
+├─ undici-types@6.20.0
+├─ unicode-canonical-property-names-ecmascript@2.0.1
+├─ unicode-match-property-ecmascript@2.0.0
+├─ unicode-match-property-value-ecmascript@2.2.0
+├─ unicode-property-aliases-ecmascript@2.1.0
+├─ unique-filename@3.0.0
+├─ unique-slug@4.0.0
+├─ unique-string@2.0.0
+├─ unpipe@1.0.0
+├─ update-browserslist-db@1.1.3
+├─ url-parse@1.5.10
+├─ use-sync-external-store@1.5.0
+├─ utils-merge@1.0.1
+├─ uuid@8.3.2
+├─ v8-to-istanbul@9.3.0
+├─ validate-npm-package-name@5.0.1
+├─ vary@1.1.2
+├─ w3c-xmlserializer@4.0.0
+├─ walker@1.0.8
+├─ warn-once@0.1.1
+├─ wcwidth@1.0.1
+├─ whatwg-fetch@3.6.20
+├─ whatwg-url-without-unicode@8.0.0-3
+├─ which@2.0.2
+├─ wrap-ansi-cjs@7.0.0
+├─ xcode@3.0.1
+├─ xmlbuilder@14.0.0
+├─ xmlchars@2.2.0
+├─ y18n@5.0.8
+├─ yargs-parser@21.1.1
+├─ yargs@17.7.2
+└─ yocto-queue@0.1.0
+✨  Done in 17.56s.
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npx expo start
+Starting project at /Users/mkonteh88/Documents/React_restaurant_app/Yippie
+Starting Metro Bundler
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▀ ██▀▀ ▄█ ▄▄▄▄▄ █
+█ █   █ █▄▀██▀██▀ █ █   █ █
+█ █▄▄▄█ █ ▄ █  ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ █ ▀▄█ █▄█▄▄▄▄▄▄▄█
+█▄▄▀▄▀▀▄▄▀▀█  ▄▀▄▄▀  ▄▀▄▄▀█
+██▀▄██▀▄▀▀▀▀  ▀ ▀▄▄▀ ▀▀█▄▄█
+█▄▀▀█ █▄▄▀█▄ █  █▀█ ▄█ ██▀█
+█▄▀██▄ ▄█ █▄ █▀██ ▄▄ ▀▀██▄█
+█▄▄▄██▄▄█ ▀██ ▀▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▄ █▄  █▄█  ▀ ▄█
+█ █   █ █▀  ▀▄▄▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀▀███  █  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄██▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.1.161:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press i │ open iOS simulator
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+iOS Bundled 6656ms node_modules/expo-router/entry.js (1236 modules)
+ (NOBRIDGE) LOG  Bridgeless mode is enabled
+ INFO  
+ 💡 JavaScript logs will be removed from Metro in React Native 0.77! Please use React Native DevTools as your default tool. Tip: Type j in the terminal to open (requires Google Chrome or Microsoft Edge).
+› Stopped server
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npm expo 
+Unknown command: "expo"
+
+To see a list of supported npm commands, run:
+  npm help
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npm exec expo
+Starting project at /Users/mkonteh88/Documents/React_restaurant_app/Yippie
+Starting Metro Bundler
+The following packages should be updated for best compatibility with the installed expo version:
+  expo@52.0.41 - expected version: ~52.0.42
+  expo-system-ui@4.0.8 - expected version: ~4.0.9
+  react-native@0.76.7 - expected version: 0.76.8
+Your project may not work correctly until you install the expected versions of the packages.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▀ ██▀▀ ▄█ ▄▄▄▄▄ █
+█ █   █ █▄▀██▀██▀ █ █   █ █
+█ █▄▄▄█ █ ▄ █  ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ █ ▀▄█ █▄█▄▄▄▄▄▄▄█
+█▄▄▀▄▀▀▄▄▀▀█  ▄▀▄▄▀  ▄▀▄▄▀█
+██▀▄██▀▄▀▀▀▀  ▀ ▀▄▄▀ ▀▀█▄▄█
+█▄▀▀█ █▄▄▀█▄ █  █▀█ ▄█ ██▀█
+█▄▀██▄ ▄█ █▄ █▀██ ▄▄ ▀▀██▄█
+█▄▄▄██▄▄█ ▀██ ▀▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▄ █▄  █▄█  ▀ ▄█
+█ █   █ █▀  ▀▄▄▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀▀███  █  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄██▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.1.161:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press i │ open iOS simulator
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+› Stopped server
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npm expo start
+Unknown command: "expo"
+
+To see a list of supported npm commands, run:
+  npm help
+(base) mkonteh88@8042388603-Martin-Kontehs-MacBook-Air Yippie % npx expo start
+Starting project at /Users/mkonteh88/Documents/React_restaurant_app/Yippie
+Starting Metro Bundler
+The following packages should be updated for best compatibility with the installed expo version:
+  expo@52.0.41 - expected version: ~52.0.42
+  expo-system-ui@4.0.8 - expected version: ~4.0.9
+  react-native@0.76.7 - expected version: 0.76.8
+Your project may not work correctly until you install the expected versions of the packages.
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▀ ██▀▀ ▄█ ▄▄▄▄▄ █
+█ █   █ █▄▀██▀██▀ █ █   █ █
+█ █▄▄▄█ █ ▄ █  ▀ ██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ █ ▀▄█ █▄█▄▄▄▄▄▄▄█
+█▄▄▀▄▀▀▄▄▀▀█  ▄▀▄▄▀  ▄▀▄▄▀█
+██▀▄██▀▄▀▀▀▀  ▀ ▀▄▄▀ ▀▀█▄▄█
+█▄▀▀█ █▄▄▀█▄ █  █▀█ ▄█ ██▀█
+█▄▀██▄ ▄█ █▄ █▀██ ▄▄ ▀▀██▄█
+█▄▄▄██▄▄█ ▀██ ▀▄  ▄▄▄ █ ▄ █
+█ ▄▄▄▄▄ █▄ █▄ █▄  █▄█  ▀ ▄█
+█ █   █ █▀  ▀▄▄▀▀▄ ▄▄ █▀▄██
+█ █▄▄▄█ █▀▀███  █  █▄  ▄█▄█
+█▄▄▄▄▄▄▄█▄█▄██▄▄█▄███▄▄█▄▄█
+
+› Metro waiting on exp://192.168.1.161:8081
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
+
+› Web is waiting on http://localhost:8081
+
+› Using Expo Go
+› Press s │ switch to development build
+
+› Press a │ open Android
+› Press i │ open iOS simulator
+› Press w │ open web
+
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
+
+› Press ? │ show all commands
+
+Logs for your project will appear below. Press Ctrl+C to exit.
+iOS Bundled 765ms node_modules/expo-router/entry.js (1237 modules)
+ (NOBRIDGE) LOG  Bridgeless mode is enabled
+ INFO  
+ 💡 JavaScript logs will be removed from Metro in React Native 0.77! Please use React Native DevTools as your default tool. Tip: Type j in the terminal to open (requires Google Chrome or Microsoft Edge).
+
