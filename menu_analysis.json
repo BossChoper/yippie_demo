@@ -1,0 +1,65 @@
+{
+  "analyzed_items": [
+    {
+      "name": "Jerk Chicken Dinner",
+      "type": "Dish",
+      "restaurant description": "Jerk chicken made with our signature spices and sauce, on rice & peas and cabbage.",
+      "6-12 word description": "Spicy jerk chicken with rice, cabbage.",
+      "price": "12.99",
+      "tags": ["high-protein", "gluten-free", "dairy-free"],
+      "ingredients": ["chicken", "rice", "peas", "cabbage", "allspice", "thyme", "scotch bonnet peppers"],
+      "allergens": ["meat", "poultry"],
+      "add-ons": [],
+      "substitutions": [],
+      "verified": "no"
+    },
+    {
+      "name": "Fried Plantain",
+      "type": "Side",
+      "restaurant description": "Fried yellow sweet plantains. Vegetarian.",
+      "12 word description": "Crispy fried sweet plantains, vegetarian and gluten-free.",
+      "tags": ["vegetarian", "high-carb", "gluten-free"],
+      "ingredients": ["plaintain", "oil"],
+      "allergens": [],
+      "add-ons": [],
+      "substitutions": [],
+      "verified": "no"
+    },
+    {
+      "name": "Oxtail Dinner",
+      "type": "Dish",
+      "restaurant description": "Oxtails stewed in a blend of spices and herbs, carrots, beans, spinners (mini dumplings), on rice & peas and cabbage.",
+      "12 word description": "Savory oxtail stew with spices, herbs, carrots, beans, and mini dumplings, served over rice & peas with cabbage.",
+      "tags": ["high-protein", "high-fat"],
+      "ingredients": ["oxtail", "carrots", "beans", "dumplings", "rice", "peas", "cabbage", "spices", "herbs"],
+      "allergens": ["meat", "beef"],
+      "add-ons": [],
+      "substitutions": [],
+      "verified": "no"
+    },
+    {
+      "name": "Curried Chicken Dinner",
+      "type": "Dish",
+      "restaurant description": "Chicken simmered in our special curry blend, on rice & peas and cabbage. *dark meat",
+      "12 word description": "Curried dark meat chicken, rice, cabbage.",
+      "tags": ["high-protein", "gluten-free", "dairy-free"],
+      "ingredients": ["chicken", "curry powder", "rice", "peas", "cabbage"],
+      "allergens": ["meat", "poultry"],
+      "add-ons": [],
+      "substitutions": [],
+      "verified": "no"
+    },
+    {
+      "name": "Sorrel Bottled",
+      "type": "Drink",
+      "restaurant description": "House blend of Jamaican (Hibiscus) Sorrel and fresh ginger. Still our homemade drink, now being bottled in house.",
+      "12 word description": "Refreshing Jamaican hibiscus-ginger drink, bottled.",
+      "tags": ["vegan", "vegetarian", "gluten-free", "dairy-free", "low-carb"],
+      "ingredients": ["sorrel", "ginger", "water"],
+      "allergens": [],
+      "add-ons": [],
+      "substitutions": [],
+      "verified": "no"
+    }
+  ]
+}
